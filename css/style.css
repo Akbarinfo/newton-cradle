@@ -18,6 +18,10 @@ main {
 
 /* NEWTON CRADLE PART   */
 
+.none {
+  display: none;
+}
+
 .newton {
   position: absolute;
   top: 50%;
@@ -28,6 +32,10 @@ main {
   margin-top: -400px;
   border-radius: 3px;
   overflow: hidden;
+}
+
+.newton-list {
+  list-style-type: none;
 }
 
 .newton-column {
@@ -59,7 +67,7 @@ main {
   border-radius: 50%;
   transform-origin: 50% -100%;
   background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkblue 60%, aqua 100%);
-    box-shadow: 1px 5px 27px 3px #00008b38;
+  box-shadow: 1px 5px 27px 3px #00008b38;
 }
 
 .newton-column .newton-ball::before {
